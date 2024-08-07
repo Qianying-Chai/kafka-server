@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "starts",
+  "info": {
+    "singularName": "start",
+    "pluralName": "starts",
+    "displayName": "START"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "start": {
+      "type": "json"
+    }
+  }
+}

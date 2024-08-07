@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subscriptions",
+  "info": {
+    "singularName": "subscription",
+    "pluralName": "subscriptions",
+    "displayName": "subscriptions",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "requesterApplicationId": {
+      "type": "json"
+    },
+    "operationType": {
+      "type": "json"
+    },
+    "ownerAdGroup": {
+      "type": "json"
+    },
+    "activeDirectoryGroup": {
+      "type": "json"
+    },
+    "topicConfig": {
+      "type": "json"
+    },
+    "distributionEmail": {
+      "type": "json"
+    },
+    "createdDate": {
+      "type": "json"
+    },
+    "dataObjectSOTId": {
+      "type": "json"
+    },
+    "quota": {
+      "type": "json"
+    },
+    "consumerGroup": {
+      "type": "json"
+    },
+    "topicName": {
+      "type": "json"
+    },
+    "aclConfig": {
+      "type": "json"
+    },
+    "status": {
+      "type": "json"
+    },
+    "applicationName": {
+      "type": "json"
+    },
+    "apmId": {
+      "type": "json"
+    },
+    "permission": {
+      "type": "json"
+    },
+    "subscriptionsId": {
+      "type": "json"
+    }
+  }
+}

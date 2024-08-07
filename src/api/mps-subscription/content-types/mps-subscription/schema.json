@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mps_subscriptions",
+  "info": {
+    "singularName": "mps-subscription",
+    "pluralName": "mps-subscriptions",
+    "displayName": "mpsSubscriptions",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "clusterName": {
+      "type": "json"
+    },
+    "regions": {
+      "type": "json"
+    },
+    "endpoint": {
+      "type": "json"
+    },
+    "topicName": {
+      "type": "json"
+    },
+    "mpsAppName": {
+      "type": "json"
+    },
+    "apmId": {
+      "type": "json"
+    },
+    "serviceNow": {
+      "type": "json"
+    },
+    "adGroup": {
+      "type": "json"
+    },
+    "tierLevel": {
+      "type": "json"
+    },
+    "cimsAppConfig": {
+      "type": "json"
+    },
+    "channelName": {
+      "type": "json"
+    },
+    "environment": {
+      "type": "json"
+    }
+  }
+}

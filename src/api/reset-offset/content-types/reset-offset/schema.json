@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reset_offsets",
+  "info": {
+    "singularName": "reset-offset",
+    "pluralName": "reset-offsets",
+    "displayName": "ResetOffset",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "offsetSpec": {
+      "type": "json"
+    },
+    "moveToDate": {
+      "type": "json"
+    },
+    "consumerGroup": {
+      "type": "json"
+    },
+    "copyToMPS": {
+      "type": "json"
+    }
+  }
+}

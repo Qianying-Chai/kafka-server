@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cluster_subscriptions",
+  "info": {
+    "singularName": "cluster-subscription",
+    "pluralName": "cluster-subscriptions",
+    "displayName": "clusterSubscription"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "regions": {
+      "type": "json"
+    },
+    "clusterName": {
+      "type": "json"
+    },
+    "endpoint": {
+      "type": "json"
+    },
+    "topicName": {
+      "type": "json"
+    },
+    "mpsAppName": {
+      "type": "json"
+    },
+    "apmId": {
+      "type": "json"
+    },
+    "serviceNow": {
+      "type": "json"
+    },
+    "adGroup": {
+      "type": "json"
+    },
+    "tierLevel": {
+      "type": "json"
+    },
+    "cimsAppConfig": {
+      "type": "json"
+    },
+    "channelName": {
+      "type": "json"
+    },
+    "environment": {
+      "type": "json"
+    },
+    "clusterId": {
+      "type": "json"
+    }
+  }
+}
